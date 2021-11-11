@@ -8,6 +8,6 @@ r = 3
 n = 11
 
 #penyelesaian
-Un = (a*r)**(n-1)
+Sn = (a*(r**n))/(n-1)
 
-print(f"\nMaka nilai dari suku ke-{n} adalah {Un}")
+print("Jadi, S3 dari barisan geometry tersebut adalah",Sn)
